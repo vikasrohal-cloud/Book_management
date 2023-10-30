@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const Book = require('../modules/book.js');
 
-console.log("hello")
+// console.log("hello")
 // Create a new book
 router.post('/books', async (req, res) => {
   const { title, author, summary } = req.body;
